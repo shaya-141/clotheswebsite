@@ -1,0 +1,456 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    color: #ffff;
+}
+
+#navbar{
+    height: 60px;
+    width: 100%;
+    background-color: #191919;
+    /* background-color: #C84D5F; */
+    /* color: #8B3B46; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ 
+}
+.brandlogo{
+    padding-left: 20px;
+    display: flex;
+    gap: 40px;
+}
+.social{
+    padding-right: 40px;
+}
+#content{
+    width: 100%;
+    height: 75vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(img/store-1338629.jpg);
+    background-repeat: no-repeat;
+    /* background-position: center; */
+    background-size: cover;
+    
+}
+.back{
+    height: 100%;
+    width: 100%;
+    /* background-color: rgba(0, 0, 0, 0.37); */
+    background-color: rgba(0, 0, 0, 0.507);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.heading{
+    max-width: 700px;
+    font-size: 27px;
+    font-weight: 900;
+    padding: 15px;
+    /* background-color: #191919; */
+    color: #ffff;
+    text-align: center;
+    p{
+        font-size: 16px;
+        font-weight: 500;
+        padding: 10px;
+    }
+    h1{
+        letter-spacing: -1px;
+        line-height: 1.2;
+    }
+}
+#ourcollect{
+    height: 70vh;
+    width: 100%;
+    /* background-color: #191919; */
+}
+.title{
+    /* background-color: #191919; */
+    text-align: center;
+    margin-top: 20px;
+    
+    h1{
+
+        color: black;
+    }
+}
+.ourcon{
+    height: 100%;
+    width: 100%;
+   display: flex;
+   align-items: center;
+   /* justify-content: space-evenly; */
+   gap: 10px;
+}
+.card{
+    height: 95%;
+    width: 250px;
+    position: relative;
+    /* border: 1px solid white; */
+    border-radius: 3px;
+    /* box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px; */
+    /* cursor: pointer; */
+    border-radius: 3px;
+
+}
+.ex{
+    height: 100%;
+    width: 100%;
+    border-radius: 8px;
+    h1{
+        height: 100%;
+        width: 15%;
+        /* background-color: #19191969; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 40px;
+        font-weight: 900;
+        gap: 10px;
+        background-color: rgba(0, 0, 0, 0.411);
+    }
+}
+.men{
+    background-image: url(img/men.jpg);
+    background-size: cover;
+    /* background-position: center; */
+    background-repeat: no-repeat;
+   flex-grow: 1;
+   margin-left: 20px;
+}
+.women{
+    background-image: url(img/women2.jpg);
+    background-size: cover;
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    flex-grow: 1;
+    margin-right: 20px;
+}
+.kid{
+    background-image: url(img/kid.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#banner{
+    height: 80vh;
+    width: 100%;
+    /* background-color: aqua; */
+   background-image: url(img/ban2.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+}
+.cover{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.384);
+}
+#leaf{
+    height: 40vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* background-position: ; */
+    /* background-image: url(img/leaf.webp);
+    background-repeat: no-repeat;
+    background-size: cover; */
+    background-color: #000000ef;
+    h1{
+        font-weight: 900;
+        font-size: 30px;
+        text-transform: uppercase;
+        text-align: center;
+    }
+    p{
+        text-align: center;
+    }
+}
+#contact{
+    height: 60vh;
+    
+    /* background-color: bisque; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    gap: 20px;
+}
+#context{
+   height: 100%;
+   width: 45%;
+    /* background-color: aqua; */
+    /* padding: 30px; */
+    /* padding-left: 15px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* background-color: #191919; */
+    h1{
+        font-size: 34px;
+        
+        color: black;
+    }
+    p{
+        text-align: left;
+        font-size: 14px;
+        color: black;
+    }
+    button{
+        border: 1.5px solid black;
+        color: black;
+        /* color: #ffff; */
+        border-radius: 3px;
+        cursor: pointer;
+        padding: 8px 18px;
+        background-color: transparent;
+        margin-top: 20px;
+        transition: 0.2s;
+        width: 120px;
+        height: 50px;
+      a{
+          font-size: 15px;
+          color: black;
+          text-decoration: none;
+        } 
+        
+    }
+}
+#context button:hover {
+    border: 1.5px solid black;
+    transform: scale(1.1);
+    background: transparent;
+    /* color: black; */
+}
+
+#img{
+    /* background-color: black; */
+    height: 90%;
+    width: 45%;
+    background-image: url(img/ban2.jpg);
+    background-size: cover;
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    border-radius: 3px;
+}
+
+
+#store{
+    height: 50vh;
+    background-image: url(img/green.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.store{
+    height: 100%;
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.507);
+    h1{
+        font-size: 50px;
+        text-align: center;
+
+    }
+    p{
+        text-align: center;
+    }
+}
+footer{
+    min-height: 100px;
+    margin-top: 30px;
+    background-color: #191919;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.soc{
+    display: flex;
+    gap: 20px;
+    a{
+        text-decoration: none;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* // X-Small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up) */
+@media (max-width: 540px) {
+    #content{
+        height: 60vh;
+    }
+    .heading{
+        h1{
+            font-size: 26px;
+            font-weight: 900;
+            letter-spacing: 1px;
+            line-height: 1.4;
+        }
+        p{
+            font-size: 12px;
+        }
+        
+    }
+    .ex{
+        h1{
+            width: 13%;
+            font-size: 28px;
+        }
+    }
+    #store{
+        margin-top: 30px;
+    }
+    .store{
+        h1{
+            font-size: 40px;
+        }
+    }
+    #leaf {
+        h1{
+            font-size: 28px;
+        }
+    }
+    #navbar{
+        
+        gap: 17px;
+        justify-content: center;
+        .brandlogo{
+            img{
+                height: 15px;
+            }
+            gap: 17px;
+        }
+        .social{
+            padding-right: 10px;
+        }
+    }
+    footer{
+        flex-direction: column;
+        align-items: start;
+        padding: 30px;
+        gap: 20px;
+    }
+    .card{
+        height: 50%;
+        width: 95%;
+    }
+     #contact{
+        height: 120vh;
+       
+        /* background-color: aqua; */
+    }
+    /*
+    #context{
+        height: 50%;
+        padding: 40px;
+    }
+    #img{
+       height: 50%;
+    } */
+ 
+}
+
+
+
+
+
+/* // Medium devices (tablets, 768px and up) */
+@media (max-width: 768px) {
+    .card{
+        height: 50%;
+        width: 90%;
+    }
+    .ourcon{
+        flex-direction: column;
+    }
+ #contact{
+    flex-direction: column-reverse;
+ }
+#context{
+    width: 90%;
+    height: 50%;
+}
+#img{
+    width: 90%;
+    height: 50%;
+}
+  .ex {
+      h1 {
+          width: 15%;
+          font-size: 28px;
+      }
+  }
+  #ourcollect{
+    min-height: 80vh;
+    /* background-color: aqua; */
+  }
+   #contact{
+    height: 120vh;
+
+  }
+
+  #store{
+    margin-top: 20px;
+  }
+  
+  /* #context{
+    margin-bottom: 10px;
+  } */
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (max-width: 992px) {
+    #ourcollect{
+        height: 50vh;
+    }
+    .men{
+        /* background-position: center; */
+        background-size: cover;
+        /* margin: 0px; */
+                margin: 8px;
+    }
+    .women{
+        /* margin: 0px; */
+                margin: 10px;
+    }
+    .ex{
+        h1{
+            font-size: 32px;
+        }
+    }
+
+}
+
+/* // X-Large devices (large desktops, 1200px and up) */
+/* @media (min-width: 1200px) {
+    ...
+} */
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+/* @media (min-width: 1400px) {
+    ...
+} */
